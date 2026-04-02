@@ -23,18 +23,6 @@ The project was developed by me (Narain) with the main intention of understandin
 - Comparison with `py_vollib`
 - Live stock price input from Yahoo Finance
 
-## Project Structure
-
-```bash
-black-scholes-model/
-│
-├── black_scholes.py
-├── greeks.py
-├── main.py
-├── requirements.txt
-└── README.md
-
-
 ## Black-Scholes Formula
 
 $$
@@ -48,3 +36,17 @@ $$
 $$
 d_2 = d_1 - \sigma \sqrt{t}
 $$
+
+
+## Project Structure
+
+```bash
+black-scholes-model/
+│
+├── black_scholes.py
+├── greeks.py
+├── main.py
+├── requirements.txt
+└── README.md
+
+
