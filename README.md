@@ -33,3 +33,18 @@ black-scholes-model/
 ├── main.py
 ├── requirements.txt
 └── README.md
+
+
+## Black-Scholes Formula
+
+$$
+C = S_t \Phi(d_1) - K e^{-rt} \Phi(d_2)
+$$
+
+$$
+d_1 = \frac{\ln(S_t / K) + (r + \sigma^2 / 2)t}{\sigma \sqrt{t}}
+$$
+
+$$
+d_2 = d_1 - \sigma \sqrt{t}
+$$
