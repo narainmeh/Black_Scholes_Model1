@@ -151,8 +151,8 @@ fig.update_layout(
 )
 
 fig.write_html(
-    "black_scholes_surface.html",
+    "scholes_surface.html",
     auto_open=True
 )
 
-print("Saved black_scholes_surface.html")
+print("Opened new tab with visualization")

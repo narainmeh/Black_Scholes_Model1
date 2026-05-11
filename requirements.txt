@@ -1,4 +1,5 @@
-numpy
-scipy
-py_vollib
+NumPy
+SciPy
+Plotly
 yfinance
+py_vollib
